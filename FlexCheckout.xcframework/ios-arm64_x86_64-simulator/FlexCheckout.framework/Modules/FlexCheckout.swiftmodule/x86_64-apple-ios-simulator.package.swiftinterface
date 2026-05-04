@@ -1,0 +1,189 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -module-name FlexCheckout -package-name flexcheckout
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
+import Combine
+import CoreGraphics
+import CoreText
+import Foundation
+import Foundation/*.Bundle*/
+import Foundation/*.ProcessInfo*/
+import Foundation/*.URL*/
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class FlexSplitRentButtonView : UIKit.UIControl {
+  @_Concurrency.MainActor @preconcurrency public init(config: FlexCheckout.SplitRentButtonConfig)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func didMoveToWindow()
+  @_Concurrency.MainActor @preconcurrency @objc override final public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @objc deinit
+}
+@available(iOS 13, *)
+@_Concurrency.MainActor @preconcurrency public struct FlexSplitRentButton : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public init(config: FlexCheckout.SplitRentButtonConfig)
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: FlexCheckout.FlexSplitRentButton.Context) -> FlexCheckout.FlexSplitRentButtonView
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: FlexCheckout.FlexSplitRentButtonView, context: FlexCheckout.FlexSplitRentButton.Context)
+  @available(iOS 13, *)
+  public typealias Body = Swift.Never
+  @available(iOS 13, *)
+  public typealias Coordinator = Swift.Void
+  @available(iOS 13, *)
+  public typealias UIViewType = FlexCheckout.FlexSplitRentButtonView
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class InterstitialUIView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public init(onContinue: @escaping () -> Swift.Void)
+  @objc deinit
+}
+@available(iOS 13, *)
+@_Concurrency.MainActor @preconcurrency public struct InterstitialView : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public init(onContinue: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: FlexCheckout.InterstitialView.Context) -> FlexCheckout.InterstitialUIView
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: FlexCheckout.InterstitialUIView, context: FlexCheckout.InterstitialView.Context)
+  @available(iOS 13, *)
+  public typealias Body = Swift.Never
+  @available(iOS 13, *)
+  public typealias Coordinator = Swift.Void
+  @available(iOS 13, *)
+  public typealias UIViewType = FlexCheckout.InterstitialUIView
+}
+public struct CheckoutConfig {
+  public let interstitial: Swift.Bool
+  public let onClose: () -> Swift.Void
+  public let onError: (Swift.String) -> Swift.Void
+  public let onEvent: (FlexCheckout.ModalEvent) -> Swift.Void
+  public let onOpen: () -> Swift.Void
+  public init(interstitial: Swift.Bool = true, onClose: @escaping () -> Swift.Void = {}, onError: @escaping (Swift.String) -> Swift.Void = { _ in }, onEvent: @escaping (FlexCheckout.ModalEvent) -> Swift.Void = { _ in }, onOpen: @escaping () -> Swift.Void = {})
+}
+public struct SplitRentButtonConfig {
+  public let styles: FlexCheckout.ButtonStyles?
+  public init(styles: FlexCheckout.ButtonStyles? = nil)
+}
+public struct FlexConfig : Swift.Sendable {
+  public let clientId: Swift.String
+  public let environment: FlexCheckout.FlexEnvironment
+  public let e2e: Swift.Bool
+  public init(clientId: Swift.String, environment: FlexCheckout.FlexEnvironment = .int, e2e: Swift.Bool = false)
+}
+public enum ModalEventType : Swift.String, Swift.Sendable {
+  case onboardingCompleted
+  case paymentCompleted
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct ModalEventData : Swift.Sendable {
+  public let autopayEnabled: Swift.Bool
+  public init(autopayEnabled: Swift.Bool = false)
+}
+public struct ModalEvent : Swift.Sendable {
+  public let type: FlexCheckout.ModalEventType
+  public let data: FlexCheckout.ModalEventData
+  public init(type: FlexCheckout.ModalEventType, data: FlexCheckout.ModalEventData = ModalEventData())
+}
+@_hasMissingDesignatedInitializers final public class Flex {
+  public static var instance: any FlexCheckout.FlexSDKProtocol {
+    get
+  }
+  @discardableResult
+  public static func initialize(config: FlexCheckout.FlexConfig) -> any FlexCheckout.FlexSDKProtocol
+  @objc deinit
+}
+public enum FlexLogger {
+  public static var enabled: Swift.Bool
+  public static func d(_ tag: Swift.String, _ msg: Swift.String)
+  public static func w(_ tag: Swift.String, _ msg: Swift.String)
+  public static func e(_ tag: Swift.String, _ msg: Swift.String)
+}
+public enum FlexError : Swift.Error, Swift.Sendable {
+  case noTokenLoader
+  case missingClientId
+  case emptyToken
+  case checkoutAlreadyOpen
+  public static func == (a: FlexCheckout.FlexError, b: FlexCheckout.FlexError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol FlexSDKProtocol : AnyObject {
+  var state: FlexCheckout.FlexState { get }
+  func configure(_ config: FlexCheckout.FlexConfig)
+  func checkout(_ config: FlexCheckout.CheckoutConfig)
+  func closeCheckout()
+  func loadToken(_ loader: @escaping () async throws -> Swift.String)
+  func warmup(resolveToken: Swift.Bool)
+  func cleanup()
+  func logImpression(data: [Swift.String : Any])
+}
+final public class FlexState {
+  public init()
+  final public var config: FlexCheckout.FlexConfig? {
+    get
+  }
+  final public var checkoutConfig: FlexCheckout.CheckoutConfig? {
+    get
+  }
+  final public var isCheckoutOpen: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+@available(iOS 13, *)
+extension FlexCheckout.FlexState : Combine.ObservableObject {
+  final public var objectWillChange: Combine.ObservableObjectPublisher {
+    get
+  }
+  @available(iOS 13, *)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
+public struct ButtonStyles : Swift.Sendable {
+  public var height: CoreFoundation.CGFloat?
+  public init(height: CoreFoundation.CGFloat? = nil)
+}
+public enum FlexEnvironment : Swift.String, Swift.Sendable {
+  case dev
+  case int
+  case local
+  case pi
+  case prod
+  case qa
+  case stg
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ProductType : Swift.String, Swift.Sendable {
+  case rent
+  case payment
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@available(iOS 13, *)
+extension FlexCheckout.FlexSplitRentButton : Swift.Sendable {}
+@available(iOS 13, *)
+extension FlexCheckout.InterstitialView : Swift.Sendable {}
+extension FlexCheckout.ModalEventType : Swift.Equatable {}
+extension FlexCheckout.ModalEventType : Swift.Hashable {}
+extension FlexCheckout.ModalEventType : Swift.RawRepresentable {}
+extension FlexCheckout.FlexError : Swift.Equatable {}
+extension FlexCheckout.FlexError : Swift.Hashable {}
+extension FlexCheckout.FlexEnvironment : Swift.Equatable {}
+extension FlexCheckout.FlexEnvironment : Swift.Hashable {}
+extension FlexCheckout.FlexEnvironment : Swift.RawRepresentable {}
+extension FlexCheckout.ProductType : Swift.Equatable {}
+extension FlexCheckout.ProductType : Swift.Hashable {}
+extension FlexCheckout.ProductType : Swift.RawRepresentable {}
