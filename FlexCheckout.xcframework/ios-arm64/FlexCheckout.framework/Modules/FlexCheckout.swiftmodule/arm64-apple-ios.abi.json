@@ -62,6 +62,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -83,6 +97,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
         "name": "CoreText",
         "printedName": "CoreText",
         "declKind": "Import",
@@ -99,6 +120,20 @@
         "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FlexCheckout"
       },
@@ -236,6 +271,33 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FlexCheckout@objc(cs)FlexSplitRentButtonView(im)layoutSubviews",
+            "mangledName": "$s12FlexCheckout0A19SplitRentButtonViewC14layoutSubviewsyyF",
+            "moduleName": "FlexCheckout",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -1547,9 +1609,192 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "variant",
+            "printedName": "variant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlexCheckout.SplitRentButtonVariant?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonVariant",
+                    "printedName": "FlexCheckout.SplitRentButtonVariant",
+                    "usr": "s:12FlexCheckout22SplitRentButtonVariantO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FlexCheckout21SplitRentButtonConfigV7variantAA0cdE7VariantOSgvp",
+            "mangledName": "$s12FlexCheckout21SplitRentButtonConfigV7variantAA0cdE7VariantOSgvp",
+            "moduleName": "FlexCheckout",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FlexCheckout.SplitRentButtonVariant?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SplitRentButtonVariant",
+                        "printedName": "FlexCheckout.SplitRentButtonVariant",
+                        "usr": "s:12FlexCheckout22SplitRentButtonVariantO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FlexCheckout21SplitRentButtonConfigV7variantAA0cdE7VariantOSgvg",
+                "mangledName": "$s12FlexCheckout21SplitRentButtonConfigV7variantAA0cdE7VariantOSgvg",
+                "moduleName": "FlexCheckout",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "radius",
+            "printedName": "radius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlexCheckout.SplitRentButtonRadius?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonRadius",
+                    "printedName": "FlexCheckout.SplitRentButtonRadius",
+                    "usr": "s:12FlexCheckout21SplitRentButtonRadiusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FlexCheckout21SplitRentButtonConfigV6radiusAA0cdE6RadiusOSgvp",
+            "mangledName": "$s12FlexCheckout21SplitRentButtonConfigV6radiusAA0cdE6RadiusOSgvp",
+            "moduleName": "FlexCheckout",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FlexCheckout.SplitRentButtonRadius?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SplitRentButtonRadius",
+                        "printedName": "FlexCheckout.SplitRentButtonRadius",
+                        "usr": "s:12FlexCheckout21SplitRentButtonRadiusO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FlexCheckout21SplitRentButtonConfigV6radiusAA0cdE6RadiusOSgvg",
+                "mangledName": "$s12FlexCheckout21SplitRentButtonConfigV6radiusAA0cdE6RadiusOSgvg",
+                "moduleName": "FlexCheckout",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlexCheckout.SplitRentButtonColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonColor",
+                    "printedName": "FlexCheckout.SplitRentButtonColor",
+                    "usr": "s:12FlexCheckout20SplitRentButtonColorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FlexCheckout21SplitRentButtonConfigV5colorAA0cdE5ColorOSgvp",
+            "mangledName": "$s12FlexCheckout21SplitRentButtonConfigV5colorAA0cdE5ColorOSgvp",
+            "moduleName": "FlexCheckout",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FlexCheckout.SplitRentButtonColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SplitRentButtonColor",
+                        "printedName": "FlexCheckout.SplitRentButtonColor",
+                        "usr": "s:12FlexCheckout20SplitRentButtonColorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FlexCheckout21SplitRentButtonConfigV5colorAA0cdE5ColorOSgvg",
+                "mangledName": "$s12FlexCheckout21SplitRentButtonConfigV5colorAA0cdE5ColorOSgvg",
+                "moduleName": "FlexCheckout",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(styles:)",
+            "printedName": "init(styles:variant:radius:color:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1571,16 +1816,93 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlexCheckout.SplitRentButtonVariant?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonVariant",
+                    "printedName": "FlexCheckout.SplitRentButtonVariant",
+                    "usr": "s:12FlexCheckout22SplitRentButtonVariantO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlexCheckout.SplitRentButtonRadius?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonRadius",
+                    "printedName": "FlexCheckout.SplitRentButtonRadius",
+                    "usr": "s:12FlexCheckout21SplitRentButtonRadiusO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlexCheckout.SplitRentButtonColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonColor",
+                    "printedName": "FlexCheckout.SplitRentButtonColor",
+                    "usr": "s:12FlexCheckout20SplitRentButtonColorO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12FlexCheckout21SplitRentButtonConfigV6stylesAcA0E6StylesVSg_tcfc",
-            "mangledName": "$s12FlexCheckout21SplitRentButtonConfigV6stylesAcA0E6StylesVSg_tcfc",
+            "usr": "s:12FlexCheckout21SplitRentButtonConfigV6styles7variant6radius5colorAcA0E6StylesVSg_AA0cdE7VariantOSgAA0cdE6RadiusOSgAA0cdE5ColorOSgtcfc",
+            "mangledName": "$s12FlexCheckout21SplitRentButtonConfigV6styles7variant6radius5colorAcA0E6StylesVSg_AA0cdE7VariantOSgAA0cdE6RadiusOSgAA0cdE5ColorOSgtcfc",
             "moduleName": "FlexCheckout",
             "declAttributes": [
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SplitRentButtonConfig",
+                "printedName": "FlexCheckout.SplitRentButtonConfig",
+                "usr": "s:12FlexCheckout21SplitRentButtonConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SplitRentButtonConfig",
+                "printedName": "FlexCheckout.SplitRentButtonConfig",
+                "usr": "s:12FlexCheckout21SplitRentButtonConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FlexCheckout21SplitRentButtonConfigV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12FlexCheckout21SplitRentButtonConfigV2eeoiySbAC_ACtFZ",
+            "moduleName": "FlexCheckout",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -1605,6 +1927,27 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -3263,6 +3606,30 @@
           },
           {
             "kind": "Function",
+            "name": "openCheckout",
+            "printedName": "openCheckout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FlexCheckout0A11SDKProtocolP04openB0yyF",
+            "mangledName": "$s12FlexCheckout0A11SDKProtocolP04openB0yyF",
+            "moduleName": "FlexCheckout",
+            "genericSig": "<τ_0_0 where τ_0_0 : FlexCheckout.FlexSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : FlexCheckout.FlexSDKProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "cleanup",
             "printedName": "cleanup()",
             "children": [
@@ -3367,6 +3734,13 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FlexCheckout"
       },
@@ -3864,6 +4238,38 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonStyles",
+                "printedName": "FlexCheckout.ButtonStyles",
+                "usr": "s:12FlexCheckout12ButtonStylesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonStyles",
+                "printedName": "FlexCheckout.ButtonStyles",
+                "usr": "s:12FlexCheckout12ButtonStylesV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FlexCheckout12ButtonStylesV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12FlexCheckout12ButtonStylesV2eeoiySbAC_ACtFZ",
+            "moduleName": "FlexCheckout",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -3895,6 +4301,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -4562,6 +4975,776 @@
             "mangledName": "$ss16SendableMetatypeP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SplitRentButtonColor",
+        "printedName": "SplitRentButtonColor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "purple",
+            "printedName": "purple",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlexCheckout.SplitRentButtonColor.Type) -> FlexCheckout.SplitRentButtonColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonColor",
+                    "printedName": "FlexCheckout.SplitRentButtonColor",
+                    "usr": "s:12FlexCheckout20SplitRentButtonColorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlexCheckout.SplitRentButtonColor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SplitRentButtonColor",
+                        "printedName": "FlexCheckout.SplitRentButtonColor",
+                        "usr": "s:12FlexCheckout20SplitRentButtonColorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FlexCheckout20SplitRentButtonColorO6purpleyA2CmF",
+            "mangledName": "$s12FlexCheckout20SplitRentButtonColorO6purpleyA2CmF",
+            "moduleName": "FlexCheckout"
+          },
+          {
+            "kind": "Var",
+            "name": "white",
+            "printedName": "white",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlexCheckout.SplitRentButtonColor.Type) -> FlexCheckout.SplitRentButtonColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonColor",
+                    "printedName": "FlexCheckout.SplitRentButtonColor",
+                    "usr": "s:12FlexCheckout20SplitRentButtonColorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlexCheckout.SplitRentButtonColor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SplitRentButtonColor",
+                        "printedName": "FlexCheckout.SplitRentButtonColor",
+                        "usr": "s:12FlexCheckout20SplitRentButtonColorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FlexCheckout20SplitRentButtonColorO5whiteyA2CmF",
+            "mangledName": "$s12FlexCheckout20SplitRentButtonColorO5whiteyA2CmF",
+            "moduleName": "FlexCheckout"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlexCheckout.SplitRentButtonColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonColor",
+                    "printedName": "FlexCheckout.SplitRentButtonColor",
+                    "usr": "s:12FlexCheckout20SplitRentButtonColorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FlexCheckout20SplitRentButtonColorO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12FlexCheckout20SplitRentButtonColorO8rawValueACSgSS_tcfc",
+            "moduleName": "FlexCheckout",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FlexCheckout20SplitRentButtonColorO8rawValueSSvp",
+            "mangledName": "$s12FlexCheckout20SplitRentButtonColorO8rawValueSSvp",
+            "moduleName": "FlexCheckout",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FlexCheckout20SplitRentButtonColorO8rawValueSSvg",
+                "mangledName": "$s12FlexCheckout20SplitRentButtonColorO8rawValueSSvg",
+                "moduleName": "FlexCheckout",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12FlexCheckout20SplitRentButtonColorO",
+        "mangledName": "$s12FlexCheckout20SplitRentButtonColorO",
+        "moduleName": "FlexCheckout",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SplitRentButtonRadius",
+        "printedName": "SplitRentButtonRadius",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "square",
+            "printedName": "square",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlexCheckout.SplitRentButtonRadius.Type) -> FlexCheckout.SplitRentButtonRadius",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonRadius",
+                    "printedName": "FlexCheckout.SplitRentButtonRadius",
+                    "usr": "s:12FlexCheckout21SplitRentButtonRadiusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlexCheckout.SplitRentButtonRadius.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SplitRentButtonRadius",
+                        "printedName": "FlexCheckout.SplitRentButtonRadius",
+                        "usr": "s:12FlexCheckout21SplitRentButtonRadiusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FlexCheckout21SplitRentButtonRadiusO6squareyA2CmF",
+            "mangledName": "$s12FlexCheckout21SplitRentButtonRadiusO6squareyA2CmF",
+            "moduleName": "FlexCheckout"
+          },
+          {
+            "kind": "Var",
+            "name": "rounded",
+            "printedName": "rounded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlexCheckout.SplitRentButtonRadius.Type) -> FlexCheckout.SplitRentButtonRadius",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonRadius",
+                    "printedName": "FlexCheckout.SplitRentButtonRadius",
+                    "usr": "s:12FlexCheckout21SplitRentButtonRadiusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlexCheckout.SplitRentButtonRadius.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SplitRentButtonRadius",
+                        "printedName": "FlexCheckout.SplitRentButtonRadius",
+                        "usr": "s:12FlexCheckout21SplitRentButtonRadiusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FlexCheckout21SplitRentButtonRadiusO7roundedyA2CmF",
+            "mangledName": "$s12FlexCheckout21SplitRentButtonRadiusO7roundedyA2CmF",
+            "moduleName": "FlexCheckout"
+          },
+          {
+            "kind": "Var",
+            "name": "pill",
+            "printedName": "pill",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlexCheckout.SplitRentButtonRadius.Type) -> FlexCheckout.SplitRentButtonRadius",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonRadius",
+                    "printedName": "FlexCheckout.SplitRentButtonRadius",
+                    "usr": "s:12FlexCheckout21SplitRentButtonRadiusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlexCheckout.SplitRentButtonRadius.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SplitRentButtonRadius",
+                        "printedName": "FlexCheckout.SplitRentButtonRadius",
+                        "usr": "s:12FlexCheckout21SplitRentButtonRadiusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FlexCheckout21SplitRentButtonRadiusO4pillyA2CmF",
+            "mangledName": "$s12FlexCheckout21SplitRentButtonRadiusO4pillyA2CmF",
+            "moduleName": "FlexCheckout"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlexCheckout.SplitRentButtonRadius?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonRadius",
+                    "printedName": "FlexCheckout.SplitRentButtonRadius",
+                    "usr": "s:12FlexCheckout21SplitRentButtonRadiusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FlexCheckout21SplitRentButtonRadiusO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12FlexCheckout21SplitRentButtonRadiusO8rawValueACSgSS_tcfc",
+            "moduleName": "FlexCheckout",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FlexCheckout21SplitRentButtonRadiusO8rawValueSSvp",
+            "mangledName": "$s12FlexCheckout21SplitRentButtonRadiusO8rawValueSSvp",
+            "moduleName": "FlexCheckout",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FlexCheckout21SplitRentButtonRadiusO8rawValueSSvg",
+                "mangledName": "$s12FlexCheckout21SplitRentButtonRadiusO8rawValueSSvg",
+                "moduleName": "FlexCheckout",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12FlexCheckout21SplitRentButtonRadiusO",
+        "mangledName": "$s12FlexCheckout21SplitRentButtonRadiusO",
+        "moduleName": "FlexCheckout",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SplitRentButtonVariant",
+        "printedName": "SplitRentButtonVariant",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlexCheckout.SplitRentButtonVariant.Type) -> FlexCheckout.SplitRentButtonVariant",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonVariant",
+                    "printedName": "FlexCheckout.SplitRentButtonVariant",
+                    "usr": "s:12FlexCheckout22SplitRentButtonVariantO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlexCheckout.SplitRentButtonVariant.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SplitRentButtonVariant",
+                        "printedName": "FlexCheckout.SplitRentButtonVariant",
+                        "usr": "s:12FlexCheckout22SplitRentButtonVariantO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FlexCheckout22SplitRentButtonVariantO7defaultyA2CmF",
+            "mangledName": "$s12FlexCheckout22SplitRentButtonVariantO7defaultyA2CmF",
+            "moduleName": "FlexCheckout"
+          },
+          {
+            "kind": "Var",
+            "name": "listItem",
+            "printedName": "listItem",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlexCheckout.SplitRentButtonVariant.Type) -> FlexCheckout.SplitRentButtonVariant",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonVariant",
+                    "printedName": "FlexCheckout.SplitRentButtonVariant",
+                    "usr": "s:12FlexCheckout22SplitRentButtonVariantO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlexCheckout.SplitRentButtonVariant.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SplitRentButtonVariant",
+                        "printedName": "FlexCheckout.SplitRentButtonVariant",
+                        "usr": "s:12FlexCheckout22SplitRentButtonVariantO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FlexCheckout22SplitRentButtonVariantO8listItemyA2CmF",
+            "mangledName": "$s12FlexCheckout22SplitRentButtonVariantO8listItemyA2CmF",
+            "moduleName": "FlexCheckout"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlexCheckout.SplitRentButtonVariant?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SplitRentButtonVariant",
+                    "printedName": "FlexCheckout.SplitRentButtonVariant",
+                    "usr": "s:12FlexCheckout22SplitRentButtonVariantO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FlexCheckout22SplitRentButtonVariantO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12FlexCheckout22SplitRentButtonVariantO8rawValueACSgSS_tcfc",
+            "moduleName": "FlexCheckout",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FlexCheckout22SplitRentButtonVariantO8rawValueSSvp",
+            "mangledName": "$s12FlexCheckout22SplitRentButtonVariantO8rawValueSSvp",
+            "moduleName": "FlexCheckout",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FlexCheckout22SplitRentButtonVariantO8rawValueSSvg",
+                "mangledName": "$s12FlexCheckout22SplitRentButtonVariantO8rawValueSSvg",
+                "moduleName": "FlexCheckout",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12FlexCheckout22SplitRentButtonVariantO",
+        "mangledName": "$s12FlexCheckout22SplitRentButtonVariantO",
+        "moduleName": "FlexCheckout",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
       }
     ],
     "json_format_version": 8
@@ -4570,28 +5753,28 @@
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/.build\/xcframework\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlexCheckout\/IntermediateBuildFilesPath\/FlexCheckout.build\/Release-iphoneos\/FlexCheckout.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
-      "offset": 295,
+      "offset": 307,
       "length": 27,
       "value": "\"FlexCheckout_FlexCheckout\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/.build\/xcframework\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlexCheckout\/IntermediateBuildFilesPath\/FlexCheckout.build\/Release-iphoneos\/FlexCheckout.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "Array",
-      "offset": 969,
+      "offset": 981,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/.build\/xcframework\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlexCheckout\/IntermediateBuildFilesPath\/FlexCheckout.build\/Release-iphoneos\/FlexCheckout.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
-      "offset": 1496,
+      "offset": 1508,
       "length": 9,
       "value": "\".bundle\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/.build\/xcframework\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlexCheckout\/IntermediateBuildFilesPath\/FlexCheckout.build\/Release-iphoneos\/FlexCheckout.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
-      "offset": 1648,
+      "offset": 1660,
       "length": 55,
       "value": "\"unable to find bundle named FlexCheckout_FlexCheckout\""
     },
@@ -4633,42 +5816,49 @@
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Analytics\/AnalyticsEvents.swift",
       "kind": "StringLiteral",
-      "offset": 438,
+      "offset": 431,
+      "length": 25,
+      "value": "\"embed_kill_switch_modal\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Analytics\/AnalyticsEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
       "length": 32,
       "value": "\"embed_interstitial_button_load\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Analytics\/AnalyticsEvents.swift",
       "kind": "StringLiteral",
-      "offset": 515,
+      "offset": 577,
       "length": 33,
       "value": "\"embed_interstitial_button_click\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Analytics\/AnalyticsEvents.swift",
       "kind": "StringLiteral",
-      "offset": 598,
+      "offset": 660,
       "length": 39,
       "value": "\"embed_interstitial_close_button_click\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Analytics\/AnalyticsEvents.swift",
       "kind": "StringLiteral",
-      "offset": 677,
+      "offset": 739,
       "length": 28,
       "value": "\"sdk_partner_impression_log\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Analytics\/AnalyticsEvents.swift",
       "kind": "StringLiteral",
-      "offset": 771,
+      "offset": 833,
       "length": 12,
       "value": "\"deviceType\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Analytics\/AnalyticsEvents.swift",
       "kind": "StringLiteral",
-      "offset": 805,
+      "offset": 867,
       "length": 13,
       "value": "\"widgetPmcId\""
     },
@@ -4692,6 +5882,13 @@
       "offset": 151,
       "length": 25,
       "value": "\"FLEX_CHECKOUT_AMPLITUDE\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Analytics\/FeatureFlags.swift",
+      "kind": "StringLiteral",
+      "offset": 84,
+      "length": 25,
+      "value": "\"checkout-ios-killswitch\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Analytics\/LaunchDarklyClient.swift",
@@ -4731,7 +5928,7 @@
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/CheckoutCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 7921,
+      "offset": 8243,
       "length": 5,
       "value": "false"
     },
@@ -4814,472 +6011,661 @@
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1042,
+      "length": 30,
+      "value": "\"https:\/\/getflex.com\/privacy\/\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1119,
+      "length": 37,
+      "value": "\"https:\/\/getflex.com\/privacy-notice\/\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1198,
+      "length": 22,
+      "value": "\"https:\/\/getflex.com\/\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1041,
+      "offset": 1688,
       "length": 3,
       "value": "247"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1047,
+      "offset": 1694,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1059,
+      "offset": 1706,
       "length": 3,
       "value": "247"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1065,
+      "offset": 1712,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1076,
+      "offset": 1723,
       "length": 3,
       "value": "247"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1082,
+      "offset": 1729,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1094,
+      "offset": 1741,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1140,
+      "offset": 1787,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1145,
+      "offset": 1792,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1157,
+      "offset": 1804,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1161,
+      "offset": 1808,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1172,
+      "offset": 1819,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1177,
+      "offset": 1824,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1189,
+      "offset": 1836,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1234,
+      "offset": 1881,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1239,
+      "offset": 1886,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1251,
+      "offset": 1898,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1256,
+      "offset": 1903,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1267,
+      "offset": 1914,
       "length": 2,
       "value": "77"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1272,
+      "offset": 1919,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1284,
+      "offset": 1931,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1330,
+      "offset": 1977,
       "length": 3,
       "value": "106"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1336,
+      "offset": 1983,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1348,
+      "offset": 1995,
       "length": 2,
       "value": "61"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1353,
+      "offset": 2000,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1364,
+      "offset": 2011,
       "length": 3,
       "value": "184"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1370,
+      "offset": 2017,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1382,
+      "offset": 2029,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1429,
+      "offset": 2076,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1434,
+      "offset": 2081,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1446,
+      "offset": 2093,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1451,
+      "offset": 2098,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1462,
+      "offset": 2109,
       "length": 2,
       "value": "46"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1467,
+      "offset": 2114,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1479,
+      "offset": 2126,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1522,
+      "offset": 2169,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1527,
+      "offset": 2174,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1539,
+      "offset": 2186,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1544,
+      "offset": 2191,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1555,
+      "offset": 2202,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1560,
+      "offset": 2207,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1572,
+      "offset": 2219,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1620,
+      "offset": 2267,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25075,
+      "offset": 28174,
       "length": 2,
       "value": "29"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25080,
+      "offset": 28179,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25092,
+      "offset": 28191,
       "length": 2,
       "value": "29"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25097,
+      "offset": 28196,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25108,
+      "offset": 28207,
       "length": 2,
       "value": "29"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25113,
+      "offset": 28212,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25125,
+      "offset": 28224,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32463,
+      "offset": 35562,
       "length": 3,
       "value": "106"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32469,
+      "offset": 35568,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32481,
+      "offset": 35580,
       "length": 2,
       "value": "61"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32486,
+      "offset": 35585,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32497,
+      "offset": 35596,
       "length": 3,
       "value": "184"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32503,
+      "offset": 35602,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32515,
+      "offset": 35614,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32562,
+      "offset": 35661,
       "length": 3,
       "value": "229"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32568,
+      "offset": 35667,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32580,
+      "offset": 35679,
       "length": 3,
       "value": "229"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32586,
+      "offset": 35685,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32597,
+      "offset": 35696,
       "length": 3,
       "value": "229"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32603,
+      "offset": 35702,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 32615,
+      "offset": 35714,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/KillSwitchScreenContent.swift",
+      "kind": "StringLiteral",
+      "offset": 83,
+      "length": 37,
+      "value": "\"We're experiencing technical issues\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/KillSwitchScreenContent.swift",
+      "kind": "StringLiteral",
+      "offset": 143,
+      "length": 67,
+      "value": "\"Our team is working to resolve the issue. Please try again later.\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/KillSwitchScreenContent.swift",
+      "kind": "StringLiteral",
+      "offset": 235,
+      "length": 12,
+      "value": "\"Powered by\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/KillSwitchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 282,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 715,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8777,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9458,
+      "length": 5,
+      "value": "106.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9466,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9480,
+      "length": 4,
+      "value": "61.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9487,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9500,
+      "length": 5,
+      "value": "184.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9508,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9522,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 553,
+      "kind": "FloatLiteral",
+      "offset": 9593,
+      "length": 4,
+      "value": "26.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9600,
       "length": 5,
-      "value": "false"
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9614,
+      "length": 4,
+      "value": "26.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9621,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9634,
+      "length": 4,
+      "value": "46.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9641,
+      "length": 5,
+      "value": "255.0"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 1284,
-      "length": 2,
-      "value": "40"
+      "offset": 9655,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3929,
+      "kind": "FloatLiteral",
+      "offset": 9727,
       "length": 5,
-      "value": "false"
+      "value": "217.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9735,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9749,
+      "length": 5,
+      "value": "221.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9757,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9770,
+      "length": 5,
+      "value": "225.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 9778,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9792,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Configuration\/CheckoutConfig.swift",
@@ -5375,7 +6761,7 @@
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/FlexSDKImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1342,
+      "offset": 1698,
       "length": 5,
       "value": "false"
     },
@@ -5413,6 +6799,27 @@
       "offset": 146,
       "length": 2,
       "value": "60"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Types\/SplitRentButtonVariant.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 11,
+      "value": "\"list_item\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/.build\/xcframework\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlexCheckout\/IntermediateBuildFilesPath\/FlexCheckout.build\/Release-iphoneos\/FlexCheckout.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 729,
+      "length": 10,
+      "value": "\"FlexLogo\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/.build\/xcframework\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlexCheckout\/IntermediateBuildFilesPath\/FlexCheckout.build\/Release-iphoneos\/FlexCheckout.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 867,
+      "length": 11,
+      "value": "\"HeroSpill\""
     }
   ]
 }
