@@ -1,10 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -module-name FlexCheckout -package-name flexcheckout
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
 import Combine
 import CoreGraphics
 import CoreText
+import DeveloperToolsSupport
 import Foundation
 import Foundation/*.Bundle*/
 import Foundation/*.ProcessInfo*/
@@ -23,6 +24,7 @@ import os
   @_Concurrency.MainActor @preconcurrency @objc override final public var intrinsicContentSize: CoreFoundation.CGSize {
     @objc get
   }
+  @_Concurrency.MainActor @preconcurrency @objc override final public func layoutSubviews()
   @objc deinit
 }
 @available(iOS 13, *)
@@ -61,9 +63,13 @@ public struct CheckoutConfig {
   public let onOpen: () -> Swift.Void
   public init(interstitial: Swift.Bool = true, onClose: @escaping () -> Swift.Void = {}, onError: @escaping (Swift.String) -> Swift.Void = { _ in }, onEvent: @escaping (FlexCheckout.ModalEvent) -> Swift.Void = { _ in }, onOpen: @escaping () -> Swift.Void = {})
 }
-public struct SplitRentButtonConfig {
+public struct SplitRentButtonConfig : Swift.Sendable, Swift.Equatable {
   public let styles: FlexCheckout.ButtonStyles?
-  public init(styles: FlexCheckout.ButtonStyles? = nil)
+  public let variant: FlexCheckout.SplitRentButtonVariant?
+  public let radius: FlexCheckout.SplitRentButtonRadius?
+  public let color: FlexCheckout.SplitRentButtonColor?
+  public init(styles: FlexCheckout.ButtonStyles? = nil, variant: FlexCheckout.SplitRentButtonVariant? = nil, radius: FlexCheckout.SplitRentButtonRadius? = nil, color: FlexCheckout.SplitRentButtonColor? = nil)
+  public static func == (a: FlexCheckout.SplitRentButtonConfig, b: FlexCheckout.SplitRentButtonConfig) -> Swift.Bool
 }
 public struct FlexConfig : Swift.Sendable {
   public let clientId: Swift.String
@@ -121,6 +127,7 @@ public protocol FlexSDKProtocol : AnyObject {
   func closeCheckout()
   func loadToken(_ loader: @escaping () async throws -> Swift.String)
   func warmup(resolveToken: Swift.Bool)
+  func openCheckout()
   func cleanup()
   func logImpression(data: [Swift.String : Any])
 }
@@ -145,9 +152,10 @@ extension FlexCheckout.FlexState : Combine.ObservableObject {
   @available(iOS 13, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
 }
-public struct ButtonStyles : Swift.Sendable {
+public struct ButtonStyles : Swift.Sendable, Swift.Equatable {
   public var height: CoreFoundation.CGFloat?
   public init(height: CoreFoundation.CGFloat? = nil)
+  public static func == (a: FlexCheckout.ButtonStyles, b: FlexCheckout.ButtonStyles) -> Swift.Bool
 }
 public enum FlexEnvironment : Swift.String, Swift.Sendable {
   case dev
@@ -172,6 +180,37 @@ public enum ProductType : Swift.String, Swift.Sendable {
     get
   }
 }
+public enum SplitRentButtonColor : Swift.String, Swift.Sendable {
+  case purple
+  case white
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum SplitRentButtonRadius : Swift.String, Swift.Sendable {
+  case square
+  case rounded
+  case pill
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum SplitRentButtonVariant : Swift.String, Swift.Sendable {
+  case `default`
+  case listItem
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension FlexCheckout.FlexEnvironment : Swift.Equatable {}
+extension FlexCheckout.FlexEnvironment : Swift.Hashable {}
+extension FlexCheckout.FlexEnvironment : Swift.RawRepresentable {}
 @available(iOS 13, *)
 extension FlexCheckout.FlexSplitRentButton : Swift.Sendable {}
 @available(iOS 13, *)
@@ -181,9 +220,15 @@ extension FlexCheckout.ModalEventType : Swift.Hashable {}
 extension FlexCheckout.ModalEventType : Swift.RawRepresentable {}
 extension FlexCheckout.FlexError : Swift.Equatable {}
 extension FlexCheckout.FlexError : Swift.Hashable {}
-extension FlexCheckout.FlexEnvironment : Swift.Equatable {}
-extension FlexCheckout.FlexEnvironment : Swift.Hashable {}
-extension FlexCheckout.FlexEnvironment : Swift.RawRepresentable {}
 extension FlexCheckout.ProductType : Swift.Equatable {}
 extension FlexCheckout.ProductType : Swift.Hashable {}
 extension FlexCheckout.ProductType : Swift.RawRepresentable {}
+extension FlexCheckout.SplitRentButtonColor : Swift.Equatable {}
+extension FlexCheckout.SplitRentButtonColor : Swift.Hashable {}
+extension FlexCheckout.SplitRentButtonColor : Swift.RawRepresentable {}
+extension FlexCheckout.SplitRentButtonRadius : Swift.Equatable {}
+extension FlexCheckout.SplitRentButtonRadius : Swift.Hashable {}
+extension FlexCheckout.SplitRentButtonRadius : Swift.RawRepresentable {}
+extension FlexCheckout.SplitRentButtonVariant : Swift.Equatable {}
+extension FlexCheckout.SplitRentButtonVariant : Swift.Hashable {}
+extension FlexCheckout.SplitRentButtonVariant : Swift.RawRepresentable {}

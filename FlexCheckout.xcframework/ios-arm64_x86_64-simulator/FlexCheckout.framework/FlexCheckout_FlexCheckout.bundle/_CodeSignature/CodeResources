@@ -16,6 +16,10 @@
 		<data>
 		a7MMlyKuda+Lq3cJIwGS+SFohtA=
 		</data>
+		<key>Assets.car</key>
+		<data>
+		BMwuySxyVTHwl2mmeHw4hFjo8LU=
+		</data>
 		<key>CooperBT-Medium.ttf</key>
 		<data>
 		fy6cZ1tdTZ6/GUgZUOaS/Lwb5lM=
@@ -46,6 +50,13 @@
 			<key>hash2</key>
 			<data>
 			80/HH3uVRbC516cO6bgnh7tCDP8AJ7Mpq55D8Sdnr7g=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6CSCvAfRL1gnacBcubPXOkFwzCsuhVeIuivOdn1Vqbk=
 			</data>
 		</dict>
 		<key>CooperBT-Medium.ttf</key>
