@@ -126,7 +126,6 @@ public protocol FlexSDKProtocol : AnyObject {
   func checkout(_ config: FlexCheckout.CheckoutConfig)
   func closeCheckout()
   func loadToken(_ loader: @escaping () async throws -> Swift.String)
-  func warmup(resolveToken: Swift.Bool)
   func openCheckout()
   func cleanup()
   func logImpression(data: [Swift.String : Any])
@@ -202,6 +201,7 @@ public enum SplitRentButtonRadius : Swift.String, Swift.Sendable {
 public enum SplitRentButtonVariant : Swift.String, Swift.Sendable {
   case `default`
   case listItem
+  case logo
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
