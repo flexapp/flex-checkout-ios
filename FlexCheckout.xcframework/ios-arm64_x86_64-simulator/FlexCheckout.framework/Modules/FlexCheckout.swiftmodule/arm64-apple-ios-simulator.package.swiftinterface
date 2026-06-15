@@ -72,12 +72,17 @@ public struct SplitRentButtonConfig : Swift.Sendable, Swift.Equatable {
   public init(styles: FlexCheckout.ButtonStyles? = nil, variant: FlexCheckout.SplitRentButtonVariant? = nil, radius: FlexCheckout.SplitRentButtonRadius? = nil, color: FlexCheckout.SplitRentButtonColor? = nil)
   public static func == (a: FlexCheckout.SplitRentButtonConfig, b: FlexCheckout.SplitRentButtonConfig) -> Swift.Bool
 }
+public struct FlexDeveloperConfig : Swift.Sendable {
+  public let logs: Swift.Bool
+  public let e2e: Swift.Bool
+  public init(logs: Swift.Bool = false, e2e: Swift.Bool = false)
+}
 public struct FlexConfig : Swift.Sendable {
   public let clientId: Swift.String
   public let environment: FlexCheckout.FlexEnvironment
-  public let e2e: Swift.Bool
   public let customComponents: Swift.Bool
-  public init(clientId: Swift.String, environment: FlexCheckout.FlexEnvironment = .int, e2e: Swift.Bool = false, customComponents: Swift.Bool = false)
+  public let developer: FlexCheckout.FlexDeveloperConfig?
+  public init(clientId: Swift.String, environment: FlexCheckout.FlexEnvironment = .int, customComponents: Swift.Bool = false, developer: FlexCheckout.FlexDeveloperConfig? = nil)
 }
 public enum ModalEventType : Swift.String, Swift.Sendable {
   case onboardingCompleted
