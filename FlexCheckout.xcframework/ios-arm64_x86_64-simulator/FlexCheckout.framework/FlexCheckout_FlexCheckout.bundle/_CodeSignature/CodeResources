@@ -28,6 +28,10 @@
 		<data>
 		9A9ECo0sBZ0JEqcMuw/IISQBj8Q=
 		</data>
+		<key>interstitial_quick_onboarding.png</key>
+		<data>
+		LuiBiHesiA7bPMtxaSHxKraP3iY=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -71,6 +75,13 @@
 			<key>hash2</key>
 			<data>
 			9c8LNTCasgKOdnHoppL9F1u1PblhhiQRVWJ3fUby7ZU=
+			</data>
+		</dict>
+		<key>interstitial_quick_onboarding.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YkRIZm/T273YkKrYKhJFfvchvHRxmpT31f4uKAxg07o=
 			</data>
 		</dict>
 	</dict>
