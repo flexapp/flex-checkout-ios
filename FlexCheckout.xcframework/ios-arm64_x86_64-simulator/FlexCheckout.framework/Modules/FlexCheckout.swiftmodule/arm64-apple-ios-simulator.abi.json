@@ -118,6 +118,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
         "name": "CoreText",
         "printedName": "CoreText",
         "declKind": "Import",
@@ -190,6 +197,13 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FlexCheckout"
       },
@@ -2511,6 +2525,447 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlexWrapperPlatform",
+        "printedName": "FlexWrapperPlatform",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "reactNative",
+            "printedName": "reactNative",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlexCheckout.FlexWrapperPlatform.Type) -> FlexCheckout.FlexWrapperPlatform",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlexWrapperPlatform",
+                    "printedName": "FlexCheckout.FlexWrapperPlatform",
+                    "usr": "s:12FlexCheckout0A15WrapperPlatformO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlexCheckout.FlexWrapperPlatform.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlexWrapperPlatform",
+                        "printedName": "FlexCheckout.FlexWrapperPlatform",
+                        "usr": "s:12FlexCheckout0A15WrapperPlatformO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FlexCheckout0A15WrapperPlatformO11reactNativeyA2CmF",
+            "mangledName": "$s12FlexCheckout0A15WrapperPlatformO11reactNativeyA2CmF",
+            "moduleName": "FlexCheckout",
+            "spi_group_names": [
+              "WrapperSDK"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "flutter",
+            "printedName": "flutter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlexCheckout.FlexWrapperPlatform.Type) -> FlexCheckout.FlexWrapperPlatform",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlexWrapperPlatform",
+                    "printedName": "FlexCheckout.FlexWrapperPlatform",
+                    "usr": "s:12FlexCheckout0A15WrapperPlatformO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlexCheckout.FlexWrapperPlatform.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlexWrapperPlatform",
+                        "printedName": "FlexCheckout.FlexWrapperPlatform",
+                        "usr": "s:12FlexCheckout0A15WrapperPlatformO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FlexCheckout0A15WrapperPlatformO7flutteryA2CmF",
+            "mangledName": "$s12FlexCheckout0A15WrapperPlatformO7flutteryA2CmF",
+            "moduleName": "FlexCheckout",
+            "spi_group_names": [
+              "WrapperSDK"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlexCheckout.FlexWrapperPlatform?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlexWrapperPlatform",
+                    "printedName": "FlexCheckout.FlexWrapperPlatform",
+                    "usr": "s:12FlexCheckout0A15WrapperPlatformO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FlexCheckout0A15WrapperPlatformO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12FlexCheckout0A15WrapperPlatformO8rawValueACSgSS_tcfc",
+            "moduleName": "FlexCheckout",
+            "implicit": true,
+            "spi_group_names": [
+              "WrapperSDK"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FlexCheckout0A15WrapperPlatformO8rawValueSSvp",
+            "mangledName": "$s12FlexCheckout0A15WrapperPlatformO8rawValueSSvp",
+            "moduleName": "FlexCheckout",
+            "implicit": true,
+            "spi_group_names": [
+              "WrapperSDK"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FlexCheckout0A15WrapperPlatformO8rawValueSSvg",
+                "mangledName": "$s12FlexCheckout0A15WrapperPlatformO8rawValueSSvg",
+                "moduleName": "FlexCheckout",
+                "implicit": true,
+                "spi_group_names": [
+                  "WrapperSDK"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12FlexCheckout0A15WrapperPlatformO",
+        "mangledName": "$s12FlexCheckout0A15WrapperPlatformO",
+        "moduleName": "FlexCheckout",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "WrapperSDK"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlexWrapperInfo",
+        "printedName": "FlexWrapperInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "platform",
+            "printedName": "platform",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlexWrapperPlatform",
+                "printedName": "FlexCheckout.FlexWrapperPlatform",
+                "usr": "s:12FlexCheckout0A15WrapperPlatformO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FlexCheckout0A11WrapperInfoV8platformAA0aC8PlatformOvp",
+            "mangledName": "$s12FlexCheckout0A11WrapperInfoV8platformAA0aC8PlatformOvp",
+            "moduleName": "FlexCheckout",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "WrapperSDK"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlexWrapperPlatform",
+                    "printedName": "FlexCheckout.FlexWrapperPlatform",
+                    "usr": "s:12FlexCheckout0A15WrapperPlatformO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FlexCheckout0A11WrapperInfoV8platformAA0aC8PlatformOvg",
+                "mangledName": "$s12FlexCheckout0A11WrapperInfoV8platformAA0aC8PlatformOvg",
+                "moduleName": "FlexCheckout",
+                "implicit": true,
+                "spi_group_names": [
+                  "WrapperSDK"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FlexCheckout0A11WrapperInfoV7versionSSvp",
+            "mangledName": "$s12FlexCheckout0A11WrapperInfoV7versionSSvp",
+            "moduleName": "FlexCheckout",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "WrapperSDK"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FlexCheckout0A11WrapperInfoV7versionSSvg",
+                "mangledName": "$s12FlexCheckout0A11WrapperInfoV7versionSSvg",
+                "moduleName": "FlexCheckout",
+                "implicit": true,
+                "spi_group_names": [
+                  "WrapperSDK"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(platform:version:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlexWrapperInfo",
+                "printedName": "FlexCheckout.FlexWrapperInfo",
+                "usr": "s:12FlexCheckout0A11WrapperInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlexWrapperPlatform",
+                "printedName": "FlexCheckout.FlexWrapperPlatform",
+                "usr": "s:12FlexCheckout0A15WrapperPlatformO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FlexCheckout0A11WrapperInfoV8platform7versionAcA0aC8PlatformO_SStcfc",
+            "mangledName": "$s12FlexCheckout0A11WrapperInfoV8platform7versionAcA0aC8PlatformO_SStcfc",
+            "moduleName": "FlexCheckout",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "WrapperSDK"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12FlexCheckout0A11WrapperInfoV",
+        "mangledName": "$s12FlexCheckout0A11WrapperInfoV",
+        "moduleName": "FlexCheckout",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "WrapperSDK"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -3138,6 +3593,55 @@
               "AccessControl",
               "DiscardableResult",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(config:wrapper:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlexSDKProtocol",
+                "printedName": "any FlexCheckout.FlexSDKProtocol",
+                "usr": "s:12FlexCheckout0A11SDKProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlexConfig",
+                "printedName": "FlexCheckout.FlexConfig",
+                "usr": "s:12FlexCheckout0A6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlexCheckout.FlexWrapperInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlexWrapperInfo",
+                    "printedName": "FlexCheckout.FlexWrapperInfo",
+                    "usr": "s:12FlexCheckout0A11WrapperInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FlexCheckout0A0C10initialize6config7wrapperAA0A11SDKProtocol_pAA0A6ConfigV_AA0A11WrapperInfoVSgtFZ",
+            "mangledName": "$s12FlexCheckout0A0C10initialize6config7wrapperAA0A11SDKProtocol_pAA0A6ConfigV_AA0A11WrapperInfoVSgtFZ",
+            "moduleName": "FlexCheckout",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "SPIAccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "WrapperSDK"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -6368,520 +6872,527 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC+ScrollShadows.swift",
+      "kind": "FloatLiteral",
+      "offset": 177,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1684,
+      "offset": 1898,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1721,
+      "offset": 1935,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1759,
+      "offset": 1973,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1794,
+      "offset": 2008,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "StringLiteral",
-      "offset": 1865,
+      "offset": 2079,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1901,
+      "offset": 2115,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2255,
+      "offset": 2469,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2579,
+      "offset": 2793,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2648,
+      "offset": 2862,
       "length": 3,
       "value": "247"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2654,
+      "offset": 2868,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2666,
+      "offset": 2880,
       "length": 3,
       "value": "247"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2672,
+      "offset": 2886,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2683,
+      "offset": 2897,
       "length": 3,
       "value": "247"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2689,
+      "offset": 2903,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2701,
+      "offset": 2915,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2747,
+      "offset": 2961,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2752,
+      "offset": 2966,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2764,
+      "offset": 2978,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2768,
+      "offset": 2982,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2779,
+      "offset": 2993,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2784,
+      "offset": 2998,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2796,
+      "offset": 3010,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2841,
+      "offset": 3055,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2846,
+      "offset": 3060,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2858,
+      "offset": 3072,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2863,
+      "offset": 3077,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2874,
+      "offset": 3088,
       "length": 2,
       "value": "77"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2879,
+      "offset": 3093,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2891,
+      "offset": 3105,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2937,
-      "length": 3,
-      "value": "106"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2943,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2955,
-      "length": 2,
-      "value": "61"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2960,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2971,
-      "length": 3,
-      "value": "184"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2977,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2989,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3036,
-      "length": 2,
-      "value": "26"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3041,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3053,
-      "length": 2,
-      "value": "26"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3058,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3069,
-      "length": 2,
-      "value": "46"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3074,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3086,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3129,
-      "length": 2,
-      "value": "85"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3134,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3146,
-      "length": 2,
-      "value": "85"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
       "offset": 3151,
       "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3162,
-      "length": 2,
-      "value": "85"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3167,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3179,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "StringLiteral",
-      "offset": 3275,
-      "length": 30,
-      "value": "\"https:\/\/getflex.com\/privacy\/\""
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "StringLiteral",
-      "offset": 3348,
-      "length": 37,
-      "value": "\"https:\/\/getflex.com\/privacy-notice\/\""
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "StringLiteral",
-      "offset": 3423,
-      "length": 22,
-      "value": "\"https:\/\/getflex.com\/\""
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 39864,
-      "length": 2,
-      "value": "29"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 39869,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 39881,
-      "length": 2,
-      "value": "29"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 39886,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 39897,
-      "length": 2,
-      "value": "29"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 39902,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 39914,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 47168,
-      "length": 3,
       "value": "106"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 47174,
+      "offset": 3157,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 47186,
+      "offset": 3169,
       "length": 2,
       "value": "61"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 47191,
+      "offset": 3174,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 47202,
+      "offset": 3185,
       "length": 3,
       "value": "184"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 47208,
+      "offset": 3191,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 47220,
+      "offset": 3203,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 47280,
-      "length": 3,
-      "value": "229"
+      "offset": 3250,
+      "length": 2,
+      "value": "26"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 47286,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 47298,
-      "length": 3,
-      "value": "229"
-    },
-    {
-      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 47304,
+      "offset": 3255,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 47315,
-      "length": 3,
-      "value": "229"
+      "offset": 3267,
+      "length": 2,
+      "value": "26"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 47321,
+      "offset": 3272,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 47333,
+      "offset": 3283,
+      "length": 2,
+      "value": "46"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3288,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3300,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3343,
+      "length": 2,
+      "value": "85"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3348,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3360,
+      "length": 2,
+      "value": "85"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3365,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3376,
+      "length": 2,
+      "value": "85"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3381,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3393,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3489,
+      "length": 30,
+      "value": "\"https:\/\/getflex.com\/privacy\/\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3562,
+      "length": 37,
+      "value": "\"https:\/\/getflex.com\/privacy-notice\/\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3637,
+      "length": 22,
+      "value": "\"https:\/\/getflex.com\/\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40385,
+      "length": 2,
+      "value": "29"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40390,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40402,
+      "length": 2,
+      "value": "29"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40407,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40418,
+      "length": 2,
+      "value": "29"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40423,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40435,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47689,
+      "length": 3,
+      "value": "106"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47695,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47707,
+      "length": 2,
+      "value": "61"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47712,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47723,
+      "length": 3,
+      "value": "184"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47729,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47741,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47801,
+      "length": 3,
+      "value": "229"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47807,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47819,
+      "length": 3,
+      "value": "229"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47825,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47836,
+      "length": 3,
+      "value": "229"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47842,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47854,
       "length": 1,
       "value": "1"
     },
@@ -7434,7 +7945,7 @@
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/KillSwitchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 282,
+      "offset": 328,
       "length": 5,
       "value": "false"
     },
@@ -8160,6 +8671,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Configuration\/FlexWrapperInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 14,
+      "value": "\"react-native\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Configuration\/FlexWrapperInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 438,
+      "length": 9,
+      "value": "\"flutter\""
+    },
+    {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Events\/ModalEvent.swift",
       "kind": "StringLiteral",
       "offset": 187,
@@ -8190,63 +8715,70 @@
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/FlexSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 129,
+      "offset": 242,
+      "length": 7,
+      "value": "\"1.4.1\""
+    },
+    {
+      "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/FlexSDKConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
       "length": 34,
       "value": "\"R%#h6lyVN6t7_#2Kn4Z9&UKa4nN9u(z>\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/FlexSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 179,
+      "offset": 378,
       "length": 34,
       "value": "\"R%#h6lyVN6t7_#2Kn4Z9&UKa4nN9u(z>\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/FlexSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 231,
+      "offset": 430,
       "length": 34,
       "value": "\"R%#h6lyVN6t7_#2Kn4Z9&UKa4nN9u(z>\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/FlexSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 280,
+      "offset": 479,
       "length": 34,
       "value": "\"R%#h6lyVN6t7_#2Kn4Z9&UKa4nN9u(z>\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/FlexSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 331,
+      "offset": 530,
       "length": 36,
       "value": "\"=fy1B=Zzi(uk\\UP;k.M{Te1e$ubC$f,M\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/FlexSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 382,
+      "offset": 581,
       "length": 34,
       "value": "\"R%#h6lyVN6t7_#2Kn4Z9&UKa4nN9u(z>\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/FlexSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 432,
+      "offset": 631,
       "length": 34,
       "value": "\"R%#h6lyVN6t7_#2Kn4Z9&UKa4nN9u(z>\""
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/State\/FlexState.swift",
       "kind": "BooleanLiteral",
-      "offset": 962,
+      "offset": 1172,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrismyers\/apps\/sdk\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/State\/FlexState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1043,
+      "offset": 1253,
       "length": 5,
       "value": "false"
     },
