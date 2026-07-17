@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -module-name FlexCheckout -package-name flexcheckout
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import Combine
 import CoreGraphics
 import CoreText
@@ -40,6 +40,27 @@ import os
   @available(iOS 13, *)
   public typealias UIViewType = FlexCheckout.FlexSplitRentButtonView
 }
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class FlexStatusCardView : UIKit.UIControl {
+  @_Concurrency.MainActor @preconcurrency public init(config: FlexCheckout.StatusCardConfig)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func didMoveToWindow()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override final public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @objc deinit
+}
+@available(iOS 13, *)
+@_Concurrency.MainActor @preconcurrency public struct FlexStatusCard : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public init(config: FlexCheckout.StatusCardConfig)
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: FlexCheckout.FlexStatusCard.Context) -> FlexCheckout.FlexStatusCardView
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: FlexCheckout.FlexStatusCardView, context: FlexCheckout.FlexStatusCard.Context)
+  @available(iOS 13, *)
+  public typealias Body = Swift.Never
+  @available(iOS 13, *)
+  public typealias Coordinator = Swift.Void
+  @available(iOS 13, *)
+  public typealias UIViewType = FlexCheckout.FlexStatusCardView
+}
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class InterstitialUIView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public init(onContinue: @escaping () -> Swift.Void)
   @objc deinit
@@ -72,6 +93,10 @@ public struct SplitRentButtonConfig : Swift.Sendable, Swift.Equatable {
   public init(styles: FlexCheckout.ButtonStyles? = nil, variant: FlexCheckout.SplitRentButtonVariant? = nil, radius: FlexCheckout.SplitRentButtonRadius? = nil, color: FlexCheckout.SplitRentButtonColor? = nil)
   public static func == (a: FlexCheckout.SplitRentButtonConfig, b: FlexCheckout.SplitRentButtonConfig) -> Swift.Bool
 }
+public struct StatusCardConfig : Swift.Sendable, Swift.Equatable {
+  public init()
+  public static func == (a: FlexCheckout.StatusCardConfig, b: FlexCheckout.StatusCardConfig) -> Swift.Bool
+}
 public struct FlexDeveloperConfig : Swift.Sendable {
   public let logs: Swift.Bool
   public let e2e: Swift.Bool
@@ -87,6 +112,7 @@ public struct FlexConfig : Swift.Sendable {
 public enum ModalEventType : Swift.String, Swift.Sendable {
   case onboardingCompleted
   case paymentCompleted
+  case autopayStatusUpdated
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -220,6 +246,8 @@ extension FlexCheckout.FlexEnvironment : Swift.Hashable {}
 extension FlexCheckout.FlexEnvironment : Swift.RawRepresentable {}
 @available(iOS 13, *)
 extension FlexCheckout.FlexSplitRentButton : Swift.Sendable {}
+@available(iOS 13, *)
+extension FlexCheckout.FlexStatusCard : Swift.Sendable {}
 @available(iOS 13, *)
 extension FlexCheckout.InterstitialView : Swift.Sendable {}
 extension FlexCheckout.ModalEventType : Swift.Equatable {}
