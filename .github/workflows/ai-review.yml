@@ -1,0 +1,17 @@
+name: AI pull request review
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+jobs:
+  ai-review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+    steps:
+      - name: At AI Agent to review code
+        uses: flexapp/flex-gha-actions/ai-code-review@main
+        with:
+          agent: ${{ vars.AI_CODE_REVIEW_AGENT }}
+          review-github-token: ${{ secrets.CODEX_COMMENTER }}
