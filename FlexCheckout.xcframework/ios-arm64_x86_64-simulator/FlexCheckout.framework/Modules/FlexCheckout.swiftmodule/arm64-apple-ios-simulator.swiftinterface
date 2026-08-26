@@ -113,6 +113,7 @@ public enum ModalEventType : Swift.String, Swift.Sendable {
   case onboardingCompleted
   case paymentCompleted
   case autopayStatusUpdated
+  case additionalVerificationRequired
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
