@@ -1,0 +1,53 @@
+name: Create New Version Tag
+
+# When the podspec version changes on main (via a propagation PR from
+# flex-checkout-ios-core), create the matching tag. SPM / CocoaPods serve it.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'FlexCheckout.podspec'
+
+permissions:
+  contents: write # the built-in GITHUB_TOKEN pushes the tag; nothing cascades off it
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history so the tag points at the right commit
+
+      - name: Extract version from podspec
+        id: get_version
+        run: |
+          VERSION=$(sed -n -E 's/^[[:space:]]*s\.version[[:space:]]*=[[:space:]]*"([^"]+)".*/\1/p' FlexCheckout.podspec)
+          if [ -z "$VERSION" ]; then
+            echo "Could not read s.version from FlexCheckout.podspec" >&2
+            exit 1
+          fi
+          echo "TAG_VERSION=$VERSION" >> "$GITHUB_ENV" # bare semver, matching this repo's existing tags
+          echo "Detected version: $VERSION"
+
+      - name: Check if version tag exists
+        id: check_tag
+        run: |
+          if git rev-parse "$TAG_VERSION" >/dev/null 2>&1; then
+            echo "Tag $TAG_VERSION already exists. Skipping."
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Tag $TAG_VERSION does not exist. Creating it."
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create and push tag
+        if: steps.check_tag.outputs.exists == 'false'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag "$TAG_VERSION"
+          git push origin "$TAG_VERSION"
