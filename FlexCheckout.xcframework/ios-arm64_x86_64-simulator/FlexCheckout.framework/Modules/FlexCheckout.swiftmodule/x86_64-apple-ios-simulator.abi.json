@@ -160,6 +160,13 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -204,6 +211,20 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FlexCheckout"
       },
@@ -4882,6 +4903,65 @@
             "moduleName": "FlexCheckout",
             "implicit": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FlexCheckout0A5ErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s12FlexCheckout0A5ErrorO16errorDescriptionSSSgvp",
+            "moduleName": "FlexCheckout",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FlexCheckout0A5ErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s12FlexCheckout0A5ErrorO16errorDescriptionSSSgvg",
+                "moduleName": "FlexCheckout",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -4893,6 +4973,13 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
           {
             "kind": "Conformance",
             "name": "Copyable",
@@ -4909,13 +4996,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -4927,6 +5007,13 @@
             "printedName": "Error",
             "usr": "s:s5ErrorP",
             "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6277,6 +6364,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FlexCheckout"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7548,7 +7642,7 @@
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/CheckoutCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 9303,
+      "offset": 9730,
       "length": 5,
       "value": "false"
     },
@@ -7604,527 +7698,520 @@
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1898,
+      "offset": 2115,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1935,
+      "offset": 2152,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1973,
+      "offset": 2190,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2008,
+      "offset": 2225,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2455,
+      "offset": 2672,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "StringLiteral",
-      "offset": 2526,
+      "offset": 2743,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2562,
+      "offset": 2779,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2916,
+      "offset": 3133,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3701,
+      "offset": 3918,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3770,
+      "offset": 3987,
       "length": 3,
       "value": "247"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3776,
+      "offset": 3993,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3788,
+      "offset": 4005,
       "length": 3,
       "value": "247"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3794,
+      "offset": 4011,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3805,
+      "offset": 4022,
       "length": 3,
       "value": "247"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3811,
+      "offset": 4028,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3823,
+      "offset": 4040,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3869,
+      "offset": 4086,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3874,
+      "offset": 4091,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3886,
+      "offset": 4103,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3890,
+      "offset": 4107,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3901,
+      "offset": 4118,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3906,
+      "offset": 4123,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3918,
+      "offset": 4135,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3963,
+      "offset": 4180,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3968,
+      "offset": 4185,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3980,
+      "offset": 4197,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3985,
+      "offset": 4202,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3996,
+      "offset": 4213,
       "length": 2,
       "value": "77"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4001,
+      "offset": 4218,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4013,
+      "offset": 4230,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4059,
+      "offset": 4276,
       "length": 3,
       "value": "106"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4065,
+      "offset": 4282,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4077,
+      "offset": 4294,
       "length": 2,
       "value": "61"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4082,
+      "offset": 4299,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4093,
+      "offset": 4310,
       "length": 3,
       "value": "184"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4099,
+      "offset": 4316,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4111,
+      "offset": 4328,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4158,
+      "offset": 4375,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4163,
+      "offset": 4380,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4175,
+      "offset": 4392,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4180,
+      "offset": 4397,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4191,
+      "offset": 4408,
       "length": 2,
       "value": "46"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4196,
+      "offset": 4413,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4208,
+      "offset": 4425,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4251,
+      "offset": 4468,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4256,
+      "offset": 4473,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4268,
+      "offset": 4485,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4273,
+      "offset": 4490,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4284,
+      "offset": 4501,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4289,
+      "offset": 4506,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4301,
+      "offset": 4518,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "StringLiteral",
-      "offset": 35378,
+      "offset": 35578,
       "length": 30,
       "value": "\"https:\/\/getflex.com\/privacy\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "StringLiteral",
-      "offset": 35451,
+      "offset": 35651,
       "length": 37,
       "value": "\"https:\/\/getflex.com\/privacy-notice\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "StringLiteral",
-      "offset": 35526,
+      "offset": 35726,
       "length": 22,
       "value": "\"https:\/\/getflex.com\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43662,
+      "offset": 45883,
       "length": 3,
       "value": "106"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43668,
+      "offset": 45889,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43680,
+      "offset": 45901,
       "length": 2,
       "value": "61"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43685,
+      "offset": 45906,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43696,
+      "offset": 45917,
       "length": 3,
       "value": "184"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43702,
+      "offset": 45923,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43714,
+      "offset": 45935,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43774,
+      "offset": 45995,
       "length": 3,
       "value": "229"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43780,
+      "offset": 46001,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43792,
+      "offset": 46013,
       "length": 3,
       "value": "229"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43798,
+      "offset": 46019,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43809,
+      "offset": 46030,
       "length": 3,
       "value": "229"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43815,
+      "offset": 46036,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/FlexCheckoutHostVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 43827,
+      "offset": 46048,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/HostFlexLogoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 128,
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialHeroVideoView.swift",
+      "kind": "StringLiteral",
+      "offset": 683,
+      "length": 61,
+      "value": "\"https:\/\/checkout.getflex.com\/assets\/rent-split-gradient.mp4\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialHeroVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 969,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialHeroVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1005,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialHeroVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1036,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialHeroVideoView.swift",
+      "kind": "Array",
+      "offset": 1403,
       "length": 2,
-      "value": "29"
+      "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/HostFlexLogoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 133,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/HostFlexLogoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 145,
-      "length": 2,
-      "value": "29"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/HostFlexLogoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 150,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/HostFlexLogoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 161,
-      "length": 2,
-      "value": "29"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/HostFlexLogoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 166,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/HostFlexLogoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 178,
-      "length": 1,
-      "value": "1"
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialHeroVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1627,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
@@ -8507,98 +8594,98 @@
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29069,
+      "offset": 28882,
       "length": 3,
       "value": "106"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29075,
+      "offset": 28888,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29087,
+      "offset": 28900,
       "length": 2,
       "value": "61"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29092,
+      "offset": 28905,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29103,
+      "offset": 28916,
       "length": 3,
       "value": "184"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29109,
+      "offset": 28922,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29121,
+      "offset": 28934,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29168,
+      "offset": 28981,
       "length": 3,
       "value": "229"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29174,
+      "offset": 28987,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29186,
+      "offset": 28999,
       "length": 3,
       "value": "229"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29192,
+      "offset": 29005,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29203,
+      "offset": 29016,
       "length": 3,
       "value": "229"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29209,
+      "offset": 29022,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/InterstitialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29221,
+      "offset": 29034,
       "length": 1,
       "value": "1"
     },
@@ -8906,233 +8993,317 @@
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 587,
-      "length": 2,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 592,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 604,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 609,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 620,
-      "length": 2,
-      "value": "77"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 625,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 637,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 683,
+      "offset": 588,
       "length": 3,
       "value": "106"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 689,
+      "offset": 594,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 701,
+      "offset": 606,
       "length": 2,
       "value": "61"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 706,
+      "offset": 611,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 717,
+      "offset": 622,
       "length": 3,
       "value": "184"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 723,
+      "offset": 628,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 735,
+      "offset": 640,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 782,
+      "offset": 687,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 787,
+      "offset": 692,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 799,
+      "offset": 704,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 804,
+      "offset": 709,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 815,
+      "offset": 720,
       "length": 2,
       "value": "46"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 820,
+      "offset": 725,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 832,
+      "offset": 737,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 875,
+      "offset": 780,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 880,
+      "offset": 785,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 892,
+      "offset": 797,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 897,
+      "offset": 802,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 908,
+      "offset": 813,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 913,
+      "offset": 818,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 925,
+      "offset": 830,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "StringLiteral",
-      "offset": 971,
+      "offset": 876,
       "length": 37,
       "value": "\"https:\/\/getflex.com\/user-agreement\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "StringLiteral",
-      "offset": 1050,
+      "offset": 955,
       "length": 42,
       "value": "\"https:\/\/getflex.com\/legal\/esign-consent\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "StringLiteral",
-      "offset": 1134,
+      "offset": 1039,
       "length": 26,
       "value": "\"https:\/\/getflex.com\/rent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "StringLiteral",
-      "offset": 1203,
+      "offset": 1108,
       "length": 37,
       "value": "\"https:\/\/getflex.com\/privacy-notice\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/QuickOnboardingInterstitialView.swift",
       "kind": "StringLiteral",
-      "offset": 1283,
+      "offset": 1188,
       "length": 30,
       "value": "\"https:\/\/getflex.com\/privacy\/\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 31,
+      "value": "\"Pay part now,\nthe rest later\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "StringLiteral",
+      "offset": 716,
+      "length": 56,
+      "value": "\"Split your rent into two smaller payments using Flex. \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "StringLiteral",
+      "offset": 787,
+      "length": 64,
+      "value": "\"Get a decision in minutes with no impact to your credit score.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "StringLiteral",
+      "offset": 884,
+      "length": 80,
+      "value": "\"Flex Rent lines of credit are subject to a fixed split fee of up to 3% of the \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "StringLiteral",
+      "offset": 979,
+      "length": 96,
+      "value": "\"amount advanced per draw, a monthly membership fee of $5.99, and a processing fee of 0.50% of \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "StringLiteral",
+      "offset": 1090,
+      "length": 96,
+      "value": "\"your total rent amount. Subject to credit approval. Flex loans and lines of credit are issued \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "StringLiteral",
+      "offset": 1201,
+      "length": 44,
+      "value": "\"by Lead Bank or Column N.A., Members FDIC.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "StringLiteral",
+      "offset": 1271,
+      "length": 27,
+      "value": "\"Start splitting your rent\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "StringLiteral",
+      "offset": 1336,
+      "length": 65,
+      "value": "\"Example: A $1,400 rent payment is split into two $700 payments \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "StringLiteral",
+      "offset": 1416,
+      "length": 26,
+      "value": "\"due on the 1st and 15th.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "FloatLiteral",
+      "offset": 2058,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2197,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2236,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Checkout\/SplitRentInterstitialV3View.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18366,
+      "length": 2,
+      "value": "96"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/AuraColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1591,
+      "length": 8,
+      "value": "0x7348F6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/AuraColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1692,
+      "length": 8,
+      "value": "0xECEBE4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/AuraColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1765,
+      "length": 8,
+      "value": "0xDAD9D0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/AuraColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1838,
+      "length": 8,
+      "value": "0x222222"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/AuraColors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1936,
+      "length": 8,
+      "value": "0xFFFFFF"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
@@ -9165,156 +9336,233 @@
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 14608,
+      "offset": 14368,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15286,
-      "length": 5,
-      "value": "106.0"
+      "kind": "StringLiteral",
+      "offset": 15025,
+      "length": 12,
+      "value": "\"FlexSansVF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15294,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15308,
+      "kind": "IntegerLiteral",
+      "offset": 16056,
       "length": 4,
-      "value": "61.0"
+      "value": "0x73"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
       "kind": "FloatLiteral",
-      "offset": 15315,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15328,
-      "length": 5,
-      "value": "184.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15336,
+      "offset": 16063,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 15350,
+      "offset": 16077,
+      "length": 4,
+      "value": "0x48"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 16084,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16097,
+      "length": 4,
+      "value": "0xF6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 16104,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16118,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16249,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 16256,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16270,
+      "length": 4,
+      "value": "0x10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 16277,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16290,
+      "length": 4,
+      "value": "0x18"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 16297,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16311,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16380,
+      "length": 4,
+      "value": "0xE2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 16387,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16401,
+      "length": 4,
+      "value": "0xE4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 16408,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16421,
+      "length": 4,
+      "value": "0xE6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 16428,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16442,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
       "kind": "FloatLiteral",
-      "offset": 15418,
-      "length": 4,
-      "value": "26.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15425,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15439,
-      "length": 4,
-      "value": "26.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15446,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15459,
+      "offset": 16741,
       "length": 4,
       "value": "46.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
       "kind": "FloatLiteral",
-      "offset": 15466,
-      "length": 5,
-      "value": "255.0"
+      "offset": 16748,
+      "length": 4,
+      "value": "12.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 15480,
+      "offset": 16839,
+      "length": 4,
+      "value": "0x22"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16846,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16858,
+      "length": 4,
+      "value": "0x22"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16865,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16876,
+      "length": 4,
+      "value": "0x22"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16883,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16895,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15549,
-      "length": 5,
-      "value": "217.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15557,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15571,
-      "length": 5,
-      "value": "221.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15579,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15592,
-      "length": 5,
-      "value": "225.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 15600,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexSplitRentButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 15614,
-      "length": 1,
-      "value": "1"
+      "offset": 17782,
+      "length": 2,
+      "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Components\/FlexStatusCard.swift",
@@ -9482,7 +9730,7 @@
       "kind": "StringLiteral",
       "offset": 242,
       "length": 7,
-      "value": "\"1.6.0\""
+      "value": "\"1.7.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/FlexSDKConstants.swift",
@@ -9557,9 +9805,16 @@
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Types\/InterstitialScreenFlag.swift",
       "kind": "StringLiteral",
-      "offset": 188,
+      "offset": 881,
       "length": 17,
       "value": "\"quickOnboarding\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Types\/InterstitialScreenFlag.swift",
+      "kind": "StringLiteral",
+      "offset": 924,
+      "length": 4,
+      "value": "\"v3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/flex-checkout-ios-core\/flex-checkout-ios-core\/FlexCheckout\/Sources\/FlexCheckout\/Types\/SplitRentButtonVariant.swift",

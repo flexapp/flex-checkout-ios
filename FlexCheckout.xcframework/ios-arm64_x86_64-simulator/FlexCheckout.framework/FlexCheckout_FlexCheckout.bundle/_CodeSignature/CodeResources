@@ -4,25 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>ABCDiatype-Bold.otf</key>
-		<data>
-		2/TbBpTn389HdJAejztpwXP9Ckg=
-		</data>
-		<key>ABCDiatype-Medium.otf</key>
-		<data>
-		NvKvEfS6YFkVmSnh6iNbMXrr5vI=
-		</data>
-		<key>ABCDiatype-Regular.otf</key>
-		<data>
-		a7MMlyKuda+Lq3cJIwGS+SFohtA=
-		</data>
 		<key>Assets.car</key>
 		<data>
-		uTtIT384OvDw0KbExh57rJ++zOg=
+		sFXfyEDGUn22pXu165neq2nQD9o=
 		</data>
-		<key>CooperBT-Medium.ttf</key>
+		<key>FlexSansVF.ttf</key>
 		<data>
-		fy6cZ1tdTZ6/GUgZUOaS/Lwb5lM=
+		P4AjSPAWkCN1CFherMfqYFM+AOs=
 		</data>
 		<key>interstitial_image.jpg</key>
 		<data>
@@ -32,42 +20,25 @@
 		<data>
 		LuiBiHesiA7bPMtxaSHxKraP3iY=
 		</data>
+		<key>rent_split_gradient_poster.jpg</key>
+		<data>
+		YapYNdtqNa7daQ8nHK7f0Ns14Gs=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>ABCDiatype-Bold.otf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ty7cqcYQo+/ud1aGY1D04KMC4HrjkD9tYvlrh7qXQPM=
-			</data>
-		</dict>
-		<key>ABCDiatype-Medium.otf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3ElTmIVKS3LJx8+KJQ31jVgZZ25yDyaKxP5cBG12Yw4=
-			</data>
-		</dict>
-		<key>ABCDiatype-Regular.otf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			80/HH3uVRbC516cO6bgnh7tCDP8AJ7Mpq55D8Sdnr7g=
-			</data>
-		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hY/hKWYUjGBJj7XIkPDhEZpFm7C/XbrFgAAYltH0NtQ=
+			MLWeDSAi7GON79FvHRGso3cGD7Vd+bkVriZqOffDo1I=
 			</data>
 		</dict>
-		<key>CooperBT-Medium.ttf</key>
+		<key>FlexSansVF.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kw7KKRlrAZj61gt/i19cvE9YgB1JYJBQEo7RzhvF9no=
+			zHuLdqF2W9lzgcHPL4zD9TvAFVxkTppSfaKWeqbSxlw=
 			</data>
 		</dict>
 		<key>interstitial_image.jpg</key>
@@ -82,6 +53,13 @@
 			<key>hash2</key>
 			<data>
 			YkRIZm/T273YkKrYKhJFfvchvHRxmpT31f4uKAxg07o=
+			</data>
+		</dict>
+		<key>rent_split_gradient_poster.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3FIM7RZl1zY03WTcz5AO+OBBIj6y+HNBOH2jgwlzUgo=
 			</data>
 		</dict>
 	</dict>
